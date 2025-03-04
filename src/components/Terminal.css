@@ -1,0 +1,43 @@
+.terminal {
+    background-color: #121212;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+    padding: 15px;
+    border-radius: 8px;
+    height: 250px;
+    overflow-y: auto;
+    border: 2px solid #0f0;
+    width: 100%;
+  }
+  
+  .terminal-body {
+    white-space: pre-wrap;
+    font-size: 14px;
+    height: 200px;
+    overflow-y: auto;
+    padding-bottom: 5px;
+  }
+  
+  .terminal-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .terminal-prompt {
+    color: #0f0;
+    margin-right: 8px;
+  }
+  
+  .terminal-input input {
+    background: none;
+    border: none;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+    width: 100%;
+    outline: none;
+  }
+  
+  .terminal-input input:focus {
+    border-bottom: 1px solid #0f0;
+  }
+  
